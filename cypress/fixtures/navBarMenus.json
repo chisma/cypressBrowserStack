@@ -1,0 +1,21 @@
+{
+    "sv": [
+        "Erbjudande",
+        "Case",
+        "Karriär",
+        "Om oss",
+        "Event",
+        "Nyheter",
+        "Kontakt",
+        "IR"
+    ],
+    "en": [
+        "Services",
+        "Career",
+        "Case",
+        "About Us",
+        "Events",
+        null,
+        "Contact"
+    ]
+}
