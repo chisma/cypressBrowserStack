@@ -1,0 +1,30 @@
+{
+    "env": {
+        "node": true,
+        "mocha": true,
+        "jest": true
+    },
+    "globals": {
+        "cy": "readonly",
+        "Cypress": "readonly",
+        "localStorage": "readonly",
+        "fetch":true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react", "jest"
+    ],
+    "rules": {
+        "no-unused-vars":"warn"
+    }
+}

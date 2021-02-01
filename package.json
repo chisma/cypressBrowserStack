@@ -1,0 +1,30 @@
+{
+  "name": "cypressbrowserstack",
+  "version": "1.0.0",
+  "description": "Cypress kitchen-sink example with browserStack",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "eslint:init": "eslint --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chisma/cypressBrowserStack.git"
+  },
+  "author": "Soumya Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chisma/cypressBrowserStack/issues"
+  },
+  "homepage": "https://github.com/chisma/cypressBrowserStack#readme"
+}
