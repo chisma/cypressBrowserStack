@@ -1,6 +1,6 @@
 const _ = require("lodash")
 
-const languagesSupported = ["sv"]
+const languagesSupported = ["Sv"]
 context("Goto the b3 Innovation landing page and verify and verify menu options", function(){
     languagesSupported.forEach((lang) => {
         beforeEach(() => {
@@ -12,6 +12,10 @@ context("Goto the b3 Innovation landing page and verify and verify menu options"
         it("Goto the landing page", function(){
             cy.visit(this.urls.primaryUrl)
             cy.acceptCookies()
+        })
+
+        it("Select language", function(){
+            cy.get("a").contains(lang).click()
         })
     
         it("Verify items on the navigation bar", function(){

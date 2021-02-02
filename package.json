@@ -14,8 +14,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "eslint:init": "eslint --init"
+    "cypress:run:chrome": "cypress run --headless --browser chrome",
+    "cypress:run:firefox":"cypress run --headless --browser firefox",
+    "eslint:init": "eslint --init",
+    "install": "npm install",
+    "cypress:install":"cypress install"
+
   },
   "repository": {
     "type": "git",
